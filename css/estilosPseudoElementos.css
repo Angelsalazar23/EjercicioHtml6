@@ -1,0 +1,46 @@
+.btn-1 {
+
+    font-size: xx-large;
+    border-radius: 10px;
+
+
+
+}
+
+
+.btn-1:hover {
+
+    background-color: green;
+    color: white;
+
+
+}
+
+.btn-1::after {
+
+    content: "Pasa por encima";
+
+}
+
+
+
+.btn-1:hover::after {
+
+    opacity: 0;
+    position: absolute;
+   
+    
+
+
+
+}
+
+
+.btn-1:hover::before {
+
+    content: " Hecho!";
+  
+
+
+
+}
